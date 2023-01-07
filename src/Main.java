@@ -86,8 +86,10 @@ public class Main {
     public static void task8() {
         int yearBegin = 2023 - 200;
         int yearEnd = 2023 + 100;
-        for (short yearComet = 0;  yearComet <= yearEnd; yearComet += 79)
+        for (short yearComet = 0;  yearComet <= yearEnd; yearComet += 79) {
             if (yearComet >= yearBegin)
                 System.out.println(yearComet);
+        }
+        System.out.println("Домашка выполнена!");
     }
 }
